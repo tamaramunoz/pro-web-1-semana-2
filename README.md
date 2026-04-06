@@ -10,26 +10,26 @@ El objetivo es construir un prototipo para el restaurante "Sabores de Chile", in
 
 El desarrollo se divide en tres actividades principales integradas en un solo documento:
 
-### 1. Estructura de Texto y Datos (Actividad 1)
+### 1. Estructura de Texto y Datos
 - **Encabezados:** Jerarquía de títulos desde `<h1>` hasta `<h3>`.
 - **Sección Quiénes Somos:** Uso de etiquetas de párrafo (`<p>`).
 - **Menú Digital:** Implementación de tablas (`<table>`) para las categorías de Platos, Bebidas y Postres.
 - **Especialidades:** Uso de listas de definición (`<dl>`, `<dt>`, `<dd>`).
 - **Promociones:** Implementación de listas no ordenadas (`<ul>`).
 
-### 2. Contenido Multimedia (Actividad 2)
-- **Sección "Plato de la Semana":** - Imágenes del producto (`<img>`) con atributos de accesibilidad.
+### 2. Contenido Multimedia
+- **Sección "Plato de la Semana":** 
+  - Imágenes del producto (`<img>`) con atributos de accesibilidad.
   - Integración de audio nativo (`<audio>`) con controles de reproducción para el usuario.
+  - Integración de video (`<iframe>`) para información adicional al usuario.
 
-### 3. Navegación y Conectividad (Actividad 3)
+### 3. Navegación y Conectividad
 - **Menú de Navegación:** Uso de etiquetas `<nav>` y anclas internas (`<a href="#id">`) para desplazamiento dentro de la misma página.
 - **Enlaces Externos:** Vinculación a fuentes de información complementaria (Wikipedia) con apertura en pestaña nueva (`target="_blank"`).
 
 ## 🛠️ Tecnologías Utilizadas
 
 * **HTML5:** Estructura semántica y contenido.
-* **CSS3 (Interno):** Estilización para mejorar la legibilidad y presentación visual.
-
 
 ## 👩‍💻 Desarrollado por:
 

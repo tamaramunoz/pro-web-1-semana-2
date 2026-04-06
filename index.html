@@ -5,207 +5,264 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant de Gastronomía Chilena</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: #D52B1E;
-            background: linear-gradient(159deg,rgb(255, 89, 59) 0%, rgba(255, 255, 255, 1) 48%, rgba(0, 70, 184, 1) 100%);
-            background-repeat: no-repeat;
-            margin: 0;
-            padding: 20px;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: #D52B1E;
+        background: linear-gradient(159deg,rgb(255, 89, 59) 0%, rgba(255, 255, 255, 1) 48%, rgba(0, 70, 184, 1) 100%);
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 20px;
+      }
 
-        header, nav, main, section, footer {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-        }
+      header, nav, main, section, footer {
+        max-width: 800px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+      }
 
-        h1, h2 {
-            color: #D52B1E;
-            text-align: center;
-        }
+      h1, h2 {
+        color: #D52B1E;
+        text-align: center;
+      }
 
-       h3 {
-            color: #D52B1E;
-            border-bottom: 2px solid #1C1A42;
-            padding-bottom: 5px;
-        }
+      h3 {
+        color: #D52B1E;
+        border-bottom: 2px solid #1C1A42;
+        padding-bottom: 5px;
+      }
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: space-around;
-            background: #D52B1E;
-            border-radius: 4px;
-        }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        background: #D52B1E;
+        border-radius: 4px;
+      }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-            display: block;
-        }
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+      }
 
-        nav a:hover {
-            background: #a52a2a;
-        }
+      nav a:hover {
+        background: #a52a2a;
+      }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
 
-        th {
-            background-color: #1C1A42;
-            color: white;
-            padding: 10px;
-        }
+      th {
+        background-color: #1C1A42;
+        color: white;
+        padding: 10px;
+      }
 
-        td {
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-        }
+      td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+      }
 
-        img {
-            border: 4px solid #fff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.2);
-            margin: 10px;
-            display: inline-block;
-        }
+      img {
+        border: 4px solid #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        margin: 10px;
+        display: inline-block;
+      }
 
-        dl {
-            background: #fff3e0;
-            padding: 15px;
-            border-left: 5px solid #1C1A42;
-        }
+      dl {
+        background: #fff3e0;
+        padding: 15px;
+        border-left: 5px solid #1C1A42;
+      }
 
-        dt {
-            font-weight: bold;
-            color: #d35400;
-        }
+      dt {
+        font-weight: bold;
+        color: #d35400;
+      }
     </style>
 </head>
 <body>
     <header>
-        <h1>Restaurante Sabores de Chile</h1>
-        <nav>
-            <ul>
-                <li><a href="#quienes-somos">Nosotros</a></li>
-                <li><a href="#menu">Menú</a></li>
-                <li><a href="#especialidades">Especialidades</a></li>
-                <li><a href="#promociones">Promociones</a></li>
-                <li><a href="#plato-semana">Plato de la Semana</a></li>
-            </ul>
-        </nav>
+      <h1>Restaurante Sabores de Chile</h1>
+      <nav>
+        <ul>
+          <li><a href="#quienes-somos">Nosotros</a></li>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#promociones">Promociones</a></li>
+          <li><a href="#plato-semana">Plato de la Semana</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="quienes-somos">
-            <h2>Quiénes Somos</h2>
-            <p>
-                En <strong>Sabores de Chile</strong> somos especialistas en comida tradicional de la zona central. 
-                Nuestra misión es llevar a su mesa el sabor auténtico de las recetas heredadas, utilizando 
-                ingredientes frescos y de la mejor calidad.
-            </p>
-            <address>Dirección: Avenida Libertador Bernardo O'higgins 123, Santiago, Chile.</address>
-        </section>
+      <section id="quienes-somos">
+        <h2>Quiénes Somos</h2>
+        <p>
+          En <strong>Sabores de Chile</strong> somos especialistas en comida tradicional de la zona central. 
+          Nuestra misión es llevar a su mesa el sabor auténtico de las recetas heredadas, utilizando 
+          ingredientes frescos y de la mejor calidad.
+        </p>
+        <address>Dirección: Avenida Libertador Bernardo O'higgins 123, Santiago, Chile.</address>
+      </section>
 
-        <section id="menu">
-            <h2>Nuestro Menú</h2>
+      <section id="menu">
+        <h2>Nuestro Menú</h2>
 
-            <h3>Platos Principales</h3>
-            <table border="1">
-                <thead>
-                    <tr><th>Producto</th><th>Descripción</th><th>Precio</th></tr>
-                </thead>
-                <tbody>
-                    <tr><td>Pastel de Choclo</td><td>Choclo tierno con pino de carne y pollo.</td><td>$10.500</td></tr>
-                    <tr><td>Humitas</td><td>Dos unidades servidas con ensalada chilena.</td><td>$12.000</td></tr>
-                    <tr><td>Porotos Granados</td><td>Tradicional preparación con mazamorra.</td><td>$10.000</td></tr>
-                </tbody>
-            </table>
+        <h3>Platos Principales</h3>
+        <table border="1">
+          <thead>
+              <tr><th>Producto</th><th>Descripción</th><th>Precio</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pastel de Choclo</td>
+              <td>Choclo tierno con pino de carne y pollo.</td>
+              <td>$10.500</td>
+            </tr>
+            <tr>
+              <td>Humitas</td>
+              <td>Dos unidades servidas con ensalada chilena.</td>
+              <td>$12.000</td>
+            </tr>
+            <tr>
+              <td>Porotos Granados</td>
+              <td>Tradicional preparación con mazamorra.</td>
+              <td>$10.000</td>
+            </tr>
+          </tbody>
+        </table>
 
-            <h3>Bebidas</h3>
-            <table border="1">
-                <thead>
-                    <tr><th>Bebida</th><th>Variedad</th><th>Precio</th></tr>
-                </thead>
-                <tbody>
-                    <tr><td>Agua</td><td>Filtrada</td><td>$2.000</td></tr>
-                    <tr><td>Jugo Natural</td><td>Fruta de la estación.</td><td>$3.500</td></tr>
-                    <tr><td>Bebidas</td><td>Individuales (350cc).</td><td>$2.000</td></tr>
-                    <tr><td>Té</td><td>Infusiones variadas.</td><td>$1.500</td></tr>
-                    <tr><td>Café</td><td>De grano.</td><td>$2.500</td></tr>
-                </tbody>
-            </table>
+        <h3>Bebidas</h3>
+        <table border="1">
+          <thead>
+            <tr><th>Bebida</th><th>Variedad</th><th>Precio</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Agua</td>
+              <td>Filtrada.</td>
+              <td>$2.000</td>
+            </tr>
+            <tr>
+              <td>Jugo Natural</td>
+              <td>Fruta de la estación.</td>
+              <td>$3.500</td>
+            </tr>
+            <tr>
+              <td>Bebidas</td>
+              <td>Individuales (350cc).</td>
+              <td>$2.000</td>
+            </tr>
+            <tr>
+              <td>Té</td>
+              <td>Infusiones variadas.</td>
+              <td>$1.500</td>
+            </tr>
+            <tr>
+              <td>Café</td>
+              <td>De grano.</td>
+              <td>$2.500</td>
+            </tr>
+          </tbody>
+        </table>
 
-            <h3>Postres</h3>
-            <table border="1">
-                <thead>
-                    <tr><th>Postre</th><th>Detalle</th><th>Precio</th></tr>
-                </thead>
-                <tbody>
-                    <tr><td>Mote con Huesillo</td><td>Clásico postre refrescante.</td><td>$2.500</td></tr>
-                    <tr><td>Helado en Cono</td><td>Dos sabores a elección.</td><td>$2.000</td></tr>
-                    <tr><td>Pastel del día</td><td>Trozo de torta casera.</td><td>$3.000</td></tr>
-                </tbody>
-            </table>
-        </section>
+          <h3>Postres</h3>
+          <table border="1">
+            <thead>
+              <tr><th>Postre</th><th>Detalle</th><th>Precio</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mote con Huesillo</td>
+                <td>Clásico postre refrescante.</td>
+                <td>$2.500</td>
+              </tr>
+              <tr>
+                <td>Helado en Cono</td>
+                <td>Dos sabores a elección.</td>
+                <td>$2.000</td>
+              </tr>
+              <tr>
+                <td>Pastel del día</td>
+                <td>Trozo de torta casera.</td>
+                <td>$3.000</td>
+              </tr>
+            </tbody>
+          </table>
+      </section>
 
-        <section id="especialidades">
-            <h2>Especialidades de la Casa</h2>
-            <dl>
-                <dt>Parrillada Doble</dt>
-                <dd>Selección de carnes premium (lomo, chuleta, pollo) para dos personas. Precio: $30.000</dd>
-                
-                <dt>Parrillada Familiar</dt>
-                <dd>Gran variedad de carnes y embutidos para compartir en familia. Precio: $45.000</dd>
-            </dl>
-        </section>
+      <section id="especialidades">
+        <h2>Especialidades de la Casa</h2>
+        <dl>
+          <dt>Parrillada Doble</dt>
+          <dd>Selección de carnes premium (lomo, chuleta, pollo) para dos personas. Precio: $30.000</dd>
+          
+          <dt>Parrillada Familiar</dt>
+          <dd>Gran variedad de carnes y embutidos para compartir en familia. Precio: $45.000</dd>
+        </dl>
+      </section>
 
-        <section id="promociones">
-            <h2>Promociones Especiales</h2>
-            <p><em>Válido sólo por el mes de Septiembre.</em></p>
-            <ul>
-                <li><strong>Promoción Pareja:</strong> Parrillada Doble + 1 Bebida de 1 litro + Postre a elección por $33.000</li>
-                <li><strong>Promoción Familiar:</strong> Parrillada Familiar + 1 Bebida de 2 litros + Postre a elección por $49.000</li>
-                <li><strong>Empanada de Pino:</strong> En la compra de 4 unidades, llévate una bebida de 1.5L gratis.</li>
-            </ul>
-        </section>
+      <section id="promociones">
+          <h2>Promociones Especiales</h2>
+          <p><em>Válido sólo por el mes de Septiembre.</em></p>
+          <ul>
+            <li>
+              <strong>Promoción Pareja:</strong> 
+              Parrillada Doble + 1 Bebida de 1 litro + Postre a elección por $33.000
+            </li>
+            <li>
+              <strong>Promoción Familiar:</strong> 
+              Parrillada Familiar + 1 Bebida de 2 litros + Postre a elección por $49.000
+            </li>
+            <li>
+              <strong>Empanada de Pino:</strong> 
+              En la compra de 4 unidades, llévate una bebida de 1.5L gratis.
+            </li>
+          </ul>
+      </section>
 
-        <section id="plato-semana">
-            <h2>Plato de la Semana: El Mote con Huesillo</h2>
-            <p>
-                El mote con huesillo es el postre chileno por excelencia. Se compone de una mezcla de 
-                jugo acaramelado, mote de trigo y duraznos deshidratados llamados huesillos.
-            </p>
-            
-            <img src="https://images.pexels.com/photos/10305722/pexels-photo-10305722.jpeg" alt="Vaso de mote con huesillo" width="300">
-            <img src="https://images.pexels.com/photos/10305725/pexels-photo-10305725.jpeg" alt="Detalle de los duraznos" width="300">
+      <section id="plato-semana">
+        <h2>Plato de la Semana: El Mote con Huesillo</h2>
+        <p>
+          El mote con huesillo es el postre chileno por excelencia. Se compone de una mezcla de 
+          jugo acaramelado, mote de trigo y duraznos deshidratados llamados huesillos.
+        </p>
+        <p>
+          ¿Quieres saber más sobre este delicioso refresco? Lee sobre su historia en 
+          <a href="https://es.wikipedia.org/wiki/Mote_con_huesillo" target="_blank">Wikipedia</a>.
+        </p>
+          
+        <img src="https://media.istockphoto.com/id/2025501920/photo/mote-with-bone.jpg?s=612x612&w=is&k=20&c=LByhobmHZ_fLIlmoQWXQ6esefQ7MRtwwxPs_FFpVJVs=" alt="Vaso de mote con huesillo" width="300">
+        <img src="https://media.istockphoto.com/id/1196901168/photo/chilean-cold-drink-mote.jpg?s=612x612&w=is&k=20&c=DwVOh_6rajLe_pGxcM7toZZrfQ62Mzo8aqPe7l43NYE=" alt="Detalle de los duraznos" width="300">
 
-            <h3>Sonidos de nuestra zona</h3>
-            <audio controls>
-                <source src="audio_tradicion.mp3" type="audio/mpeg">
-                Tu navegador no soporta el elemento de audio.
-            </audio>
+        <h3>Sonidos de nuestra zona:</h3>
+        <p>El mote con huesillos proviene de la zona central de nuestro país, a continuación te dejamos con sonidos típicos del bosque del valle central.</p>
+        <audio controls>
+          <source src="natura.mp3" type="audio/mpeg">
+          Tu navegador no soporta el elemento de audio.
+        </audio>
 
-            <p>
-                ¿Quieres saber más? Lee sobre su historia en 
-                <a href="https://es.wikipedia.org/wiki/Mote_con_huesillo" target="_blank">Wikipedia</a>.
-            </p>
-        </section>
+        <h3>Preparación del mote con huesillos:</h3>
+        <p>También te compartimos un vídeo de la receta por si se animan a hacerlo en casa!</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mkclYBVI6pU?si=3FDjyAKojDWlldDB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
     </main>
 
     <footer>
-        <p style="text-align: center;">&copy; 2026 Restaurante Sabores de Chile. Todos los derechos reservados &reg;</p>
+      <p style="text-align: center;">&copy; 2026 Restaurante Sabores de Chile. Todos los derechos reservados &reg;</p>
     </footer>
 </body>
 </html>
